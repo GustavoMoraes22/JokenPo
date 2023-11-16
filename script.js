@@ -9,6 +9,11 @@ let humanScoreNumber = 0
 let machineScoreNumber = 0
 let empateScoreNumber = 0
 
+const GAME_OPTIONS = {
+    ROCK:'pedra',
+    PAPER:'papel',
+    SCISSORS:'tesoura'
+}
 
 
 const playHuman = (humanChoice) => {
